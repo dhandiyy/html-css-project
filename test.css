@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ffff9d;
+    
+  }
+  
+  .ketupat {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    rotate: 45deg;
+    width: 200px;
+    gap: .3rem;
+    margin-bottom: 100px;
+  }
+  
+  .box {
+    width: 100%;
+    aspect-ratio: 1;
+
+  }
+
+  .box:nth-child(odd) {
+    background: #0aa30a;
+  }
+  
+  .box:nth-child(even) {
+    background: #72be20;
+  }
+
+  .container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Satisfy';
+    font-weight: bold;
+    margin: 5px;
+}
+ 
+  
